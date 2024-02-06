@@ -1,0 +1,27 @@
+{
+  "results": {
+    "hellaswag": {
+      "acc": 0.6299541923919538,
+      "acc_stderr": 0.00481829899101255,
+      "acc_norm": 0.8193586934873531,
+      "acc_norm_stderr": 0.0038393444971919553
+    }
+  },
+  "versions": {
+    "hellaswag": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=meta-llama/Llama-2-13b-chat-hf,tokenizer=meta-llama/Llama-2-13b-chat-hf,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 10,
+    "batch_size": "auto",
+    "batch_sizes": [
+      8
+    ],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

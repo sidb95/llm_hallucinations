@@ -1,0 +1,27 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.2802937576499388,
+      "mc1_stderr": 0.015723139524608763,
+      "mc2": 0.4396275940188729,
+      "mc2_stderr": 0.0157392690895431
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=meta-llama/Llama-2-13b-chat-hf,tokenizer=meta-llama/Llama-2-13b-chat-hf,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 0,
+    "batch_size": "auto",
+    "batch_sizes": [
+      128
+    ],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "results": {
+    "gsm8k": {
+      "acc": 0.24564063684609552,
+      "acc_stderr": 0.011857183603902224
+    }
+  },
+  "versions": {
+    "gsm8k": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/ubuntu/Llama-customize/model-2,tokenizer=/home/ubuntu/Llama-customize/model-2,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 5,
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

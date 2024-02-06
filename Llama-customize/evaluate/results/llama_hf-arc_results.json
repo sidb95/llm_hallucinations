@@ -1,0 +1,27 @@
+{
+  "results": {
+    "arc_challenge": {
+      "acc": 0.560580204778157,
+      "acc_stderr": 0.014503747823580123,
+      "acc_norm": 0.591296928327645,
+      "acc_norm_stderr": 0.014365750345427
+    }
+  },
+  "versions": {
+    "arc_challenge": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=meta-llama/Llama-2-13b-chat-hf,tokenizer=meta-llama/Llama-2-13b-chat-hf,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 25,
+    "batch_size": "auto",
+    "batch_sizes": [
+      8
+    ],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "results": {
+    "drop": {
+      "em": 0.057781040268456374,
+      "em_stderr": 0.0023895066805947334,
+      "f1": 0.11218959731543651,
+      "f1_stderr": 0.0025788599911882423
+    }
+  },
+  "versions": {
+    "drop": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=meta-llama/Llama-2-13b-chat-hf,tokenizer=meta-llama/Llama-2-13b-chat-hf,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 3,
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

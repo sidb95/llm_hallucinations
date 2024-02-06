@@ -1,0 +1,27 @@
+{
+  "results": {
+    "truthfulqa_mc": {
+      "mc1": 0.29253365973072215,
+      "mc1_stderr": 0.015925597445286165,
+      "mc2": 0.4463042439255377,
+      "mc2_stderr": 0.015224031432417528
+    }
+  },
+  "versions": {
+    "truthfulqa_mc": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/ubuntu/Llama-customize/model,tokenizer=/home/ubuntu/Llama-customize/model,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 0,
+    "batch_size": "auto",
+    "batch_sizes": [
+      128
+    ],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

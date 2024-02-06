@@ -1,0 +1,25 @@
+{
+  "results": {
+    "xwinograd_en": {
+      "acc": 0.8997849462365591,
+      "acc_stderr": 0.006228992120806108
+    }
+  },
+  "versions": {
+    "xwinograd_en": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/ubuntu/Llama-customize/model-2,tokenizer=/home/ubuntu/Llama-customize/model-2,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 5,
+    "batch_size": "auto",
+    "batch_sizes": [
+      128
+    ],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

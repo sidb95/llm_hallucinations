@@ -1,0 +1,25 @@
+{
+  "results": {
+    "drop": {
+      "em": 0.23468959731543623,
+      "em_stderr": 0.004340156396807699,
+      "f1": 0.28918309563758365,
+      "f1_stderr": 0.004300228437284833
+    }
+  },
+  "versions": {
+    "drop": 1
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/home/ubuntu/Llama-customize/model-2,tokenizer=/home/ubuntu/Llama-customize/model-2,use_accelerate=True,device_map_option=auto",
+    "num_fewshot": 3,
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
